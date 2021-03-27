@@ -2,13 +2,14 @@
 
 AWS to Azure services comparison
 
-Category | Service | AWS | Azure 
-Compute | Shared Web hosting | | Azure shared App Services 
-Compute | Virtual Server | Amazon EC2  | Azure Virtual Machine 
-Compute | Bare Metal Server | Amazon EC2 Bare Metal Instance  | Azure Bare Metal Servers (Large Instance Only for SAP Hana) 
-Compute | Virtual Dedicated Host | Amazon EC2 Dedicated Hosts | Azure Dedicated Host 
-Compute | Container Registration Service | Amazon Elastic Container Registry | Azure Container Registry 
-Compute | Container Management Service | Amazon EC2 Container Service (ECS) <br> Amazon Elastic Container Service for Kubernetes( EKS) | Azure Kubernetes Service(AKS) <br> Azure Container Instances 
+| Category | Service | AWS | Azure |
+| ------------- |:-------------:|:---------------------------------------:|:---------------------------------------:|
+| Compute | Shared Web hosting | | Azure shared App Services |
+| Compute | Virtual Server | Amazon EC2  | Azure Virtual Machine |
+| Compute | Bare Metal Server | Amazon EC2 Bare Metal Instance  | Azure Bare Metal Servers (Large Instance Only for SAP Hana)  |
+| Compute | Virtual Dedicated Host | Amazon EC2 Dedicated Hosts | Azure Dedicated Host  |
+| Compute | Container Registration Service | Amazon Elastic Container Registry | Azure Container Registry  |
+| Compute | Container Management Service | Amazon EC2 Container Service (ECS) <br> Amazon Elastic Container Service for Kubernetes( EKS) | Azure Kubernetes Service(AKS) <br> Azure Container Instances  |
 Compute |Micro Services App Development Platform
 AWS Lambda 
 Azure Service Fabric 
