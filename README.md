@@ -6,7 +6,7 @@ Notes:
 * Only compare AWS with AZure. 
 * Markdown for easy updates later
 * Category types based on AWS services.
-* Service with * in front is a question service, need be reviewed.
+* Service with * in front need be reviewed.
 * Only list as similar services
 
 | Category | Services | AWS | Azure |
