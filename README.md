@@ -7,7 +7,7 @@ Notes:
 * Convert to Markdown and flat it for easy updates later
 * Category types based on AWS services.
 
-|| Category || Services || AWS | Azure ||
+| Category | Services | AWS | Azure |
 | :-------------: |:-------------:| :---------------------------------------:|:---------------------------------------:|
 | Compute | Instances | Amazon EC2  | Azure Virtual Machine |
 | Compute | Instances | Launch Templates  |  |
