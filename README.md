@@ -7,6 +7,7 @@ Notes:
 * Markdown for easy updates later
 * Category types based on AWS services.
 * Service with * in front is a question service, need be reviewed.
+* Only list as similar services
 
 | Category | Services | AWS | Azure |
 | ---------- |:-------------:| :---------------------------------------:|:---------------------------------------:|
@@ -41,4 +42,28 @@ Notes:
 | Containers | Containers | Elastic Kubernetes Service (EKS) | Azure Kubernetes Service(AKS) |
 | Containers | * Containers <br> (Serverless Compute Engine) | Elastic Container Service (ECS) with Fargate | Azure Container Instances |
 | Containers | Containers | Red Hat OpenShift Service on AWS | |
+| | | | |
+| Storage |  | S3 | |
+| Storage |  | EFS | |
+| Storage |  | FSx | |
+| Storage |  | S3 Glacier | |
+| Storage |  | Storage Gateway | |
+| Storage |  | AWS Backup | |
+| | | | |
+| Network & <br> Content Delivery | Virtual Private Cloud | Virtual Private Cloud (VPC) | Virtual Network |
+| Network & <br> Content Delivery | Virtual Private Cloud | Subnets | Subnets |
+| Network & <br> Content Delivery | Virtual Private Cloud | Route Tables | Route Table |
+
+| Network & <br> Content Delivery |  | Transit Gateway | Virtual WAN |
+
+| Network & <br> Content Delivery |  | CloudFront | |
+| Network & <br> Content Delivery |  | Route 53 | |
+| Network & <br> Content Delivery |  | API Gateway | |
+| Network & <br> Content Delivery |  | Direct Connect | ExpressRoute Circuit |
+| Network & <br> Content Delivery |  | AWS App Mesh | |
+| Network & <br> Content Delivery |  | AWS Cloud Map | |
+| Network & <br> Content Delivery |  | Clobal Accelerator | |
+
+
+
 
