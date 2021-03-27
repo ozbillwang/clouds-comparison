@@ -7,14 +7,33 @@ Notes:
 * Convert to Markdown and flat it for easy updates later
 * Category types based on AWS services.
 
-| Category | Service | AWS | Azure |
-| :-------------: |:-------------:|:---------------------------------------:|:---------------------------------------:|
-| Compute | Shared Web hosting | | Azure shared App Services |
-| Compute | Virtual Server | Amazon EC2  | Azure Virtual Machine |
-| Compute | Bare Metal Server | Amazon EC2 Bare Metal Instance  | Azure Bare Metal Servers (Large Instance Only for SAP Hana)  |
-| Compute | Virtual Dedicated Host | Amazon EC2 Dedicated Hosts | Azure Dedicated Host  |
-| Compute | Container Registration Service | Amazon Elastic Container Registry | Azure Container Registry  |
-| Compute | Container Management Service | Amazon EC2 Container Service (ECS) <br> Amazon Elastic Container Service for Kubernetes( EKS) | Azure Kubernetes Service(AKS) <br> Azure Container Instances  |
+| Category | Services | AWS | Azure |
+| :-------------: |:-------------:| :---------------------------------------:|:---------------------------------------:|
+| Compute | Instances | Amazon EC2  | Azure Virtual Machine |
+| Compute | Instances | Launch Templates  |  |
+| Compute | Instances | Spot instances  |  |
+| Compute | Instances | Reserviced Instances |  |
+| Compute | Instances | Dedicated Hosts | Azure Dedicated Host  |
+| Compute | Images | AMIs |   |
+| Compute | Elastic Block Store (EBS) | Volumes |   |
+| Compute | Elastic Block Store (EBS) | Snopshots |   |
+| Compute | Elastic Block Store (EBS) | Lifecycle Manager |   |
+| Compute | Network & Security | Security Groups|   |
+| Compute | Network & Security | Elastic IPs|   |
+| Compute | Network & Security | Placement Groups|   |
+| Compute | Network & Security | Network Interfaces|   |
+| Compute | Load Balancing| Load Balancers |   |
+| Compute | Load Balancing| Target Groups |   |
+| Compute | Auto scaling| Launch Configurations |   |
+| Compute | Auto scaling| Auto Scaling Groups |   |
+
+| Compute | Containers | Elastic Container Registry | Azure Container Registry  |
+| Compute | Containers | Elastic Container Service (ECS) | |
+| Compute | Containers | Elastic Kubernetes Service (EKS) | Azure Kubernetes Service(AKS) |
+| * Compute | Containers | Elastic Container Service (ECS) with Fargate | Azure Container Instances |
+| Compute | Containers | Red Hat OpenShift Service on AWS | |
+
+
 Compute |Micro Services App Development Platform
 AWS Lambda 
 Azure Service Fabric 
