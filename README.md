@@ -2,8 +2,13 @@
 
 AWS to Azure services comparison
 
+Notes:
+* Reference from https://github.com/ilyas-it83/CloudComparer, and only compare AWS with AZure. 
+* Convert to Markdown and flat it for easy updates later
+* Category types based on AWS services.
+
 | Category | Service | AWS | Azure |
-| ------------- |:-------------:|:---------------------------------------:|:---------------------------------------:|
+| :-------------: |:-------------:|:---------------------------------------:|:---------------------------------------:|
 | Compute | Shared Web hosting | | Azure shared App Services |
 | Compute | Virtual Server | Amazon EC2  | Azure Virtual Machine |
 | Compute | Bare Metal Server | Amazon EC2 Bare Metal Instance  | Azure Bare Metal Servers (Large Instance Only for SAP Hana)  |
