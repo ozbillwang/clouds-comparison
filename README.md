@@ -50,12 +50,34 @@ Notes:
 | Storage |  | Storage Gateway | |
 | Storage |  | AWS Backup | |
 | | | | |
-| Network & <br> Content Delivery | Virtual Private Cloud | Virtual Private Cloud (VPC) | Virtual Network |
+| Network & <br> Content Delivery | Virtual Private Cloud | Virtual Private Cloud (VPC) | Virtual Network (vNet) |
 | Network & <br> Content Delivery | Virtual Private Cloud | Subnets | Subnets |
 | Network & <br> Content Delivery | Virtual Private Cloud | Route Tables | Route Table |
-
-| Network & <br> Content Delivery |  | Transit Gateway | Virtual WAN |
-
+| Network & <br> Content Delivery | Virtual Private Cloud | Internet Gateway | |
+| Network & <br> Content Delivery | Virtual Private Cloud | Egress Only Internete Gateway  | |
+| Network & <br> Content Delivery | Virtual Private Cloud | Elastic IPs  | |
+| Network & <br> Content Delivery | Virtual Private Cloud | Mangaged Prefix Lists  | |
+| Network & <br> Content Delivery | Virtual Private Cloud | Endpoint Services  | |
+| Network & <br> Content Delivery | Virtual Private Cloud | NAT Gateway  | |
+| Network & <br> Content Delivery | Virtual Private Cloud | Peering Connections  | |
+| Network & <br> Content Delivery | Security | Network ACLS (NACL)  | |
+| Network & <br> Content Delivery | Security | Security Groups| |
+| Network & <br> Content Delivery | Reachability | Reachability Analyzer  | |
+| Network & <br> Content Delivery | AWS Network Firewall | Firewalls  | |
+| Network & <br> Content Delivery | AWS Network Firewall | Firewall policies  | |
+| Network & <br> Content Delivery | AWS Network Firewall | Network Firewall rule groups  | |
+| Network & <br> Content Delivery | Virtual Private Network (VPN) | Customer Gateways  | |
+| Network & <br> Content Delivery | Virtual Private Network (VPN) | Virtual Private Gateways (VPG)| |
+| Network & <br> Content Delivery | Virtual Private Network (VPN) | Site-to-Site VPN Connections  | |
+| Network & <br> Content Delivery | Virtual Private Network (VPN) | Client VPN Connections  | |
+| Network & <br> Content Delivery | Transit Gateways | Transit Gateways | Virtual WAN |
+| Network & <br> Content Delivery | Transit Gateways | Transit Gateway Attachments | Virtual Hub <br> Transit vNet |
+| Network & <br> Content Delivery | Transit Gateways | Transit Gateway Route Tables |  |
+| Network & <br> Content Delivery | Transit Gateways | Transit Gateway Route Multicast |  |
+| Network & <br> Content Delivery | Transit Gateways | Network Manager |  |
+| Network & <br> Content Delivery | Traffic Mirroring | Mirror Sessions |  |
+| Network & <br> Content Delivery | Traffic Mirroring | Mirror Targets |  |
+| Network & <br> Content Delivery | Traffic Mirroring | Mirror Filters |  |
 | Network & <br> Content Delivery |  | CloudFront | |
 | Network & <br> Content Delivery |  | Route 53 | |
 | Network & <br> Content Delivery |  | API Gateway | |
