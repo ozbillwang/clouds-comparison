@@ -39,6 +39,6 @@ Notes:
 | Containers | Containers | Elastic Container Registry | Azure Container Registry  |
 | Containers | Containers | Elastic Container Service (ECS) | |
 | Containers | Containers | Elastic Kubernetes Service (EKS) | Azure Kubernetes Service(AKS) |
-| Containers | * Containers | Elastic Container Service (ECS) with Fargate | Azure Container Instances |
+| Containers | * Containers <br> (Serverless Compute Engine) | Elastic Container Service (ECS) with Fargate | Azure Container Instances |
 | Containers | Containers | Red Hat OpenShift Service on AWS | |
 
