@@ -7,7 +7,7 @@ Notes:
 * Convert to Markdown and flat it for easy updates later
 * Category types based on AWS services.
 
-| Category | Services | AWS | Azure |
+|| Category || Services || AWS | Azure ||
 | :-------------: |:-------------:| :---------------------------------------:|:---------------------------------------:|
 | Compute | Instances | Amazon EC2  | Azure Virtual Machine |
 | Compute | Instances | Launch Templates  |  |
@@ -26,15 +26,20 @@ Notes:
 | Compute | Load Balancing| Target Groups |   |
 | Compute | Auto scaling| Launch Configurations |   |
 | Compute | Auto scaling| Auto Scaling Groups |   |
-
-| Compute | Containers | Elastic Container Registry | Azure Container Registry  |
-| Compute | Containers | Elastic Container Service (ECS) | |
-| Compute | Containers | Elastic Kubernetes Service (EKS) | Azure Kubernetes Service(AKS) |
-| * Compute | Containers | Elastic Container Service (ECS) with Fargate | Azure Container Instances |
-| Compute | Containers | Red Hat OpenShift Service on AWS | |
-
-
-Compute |Micro Services App Development Platform
+| Compute | Auto scaling| Auto Scaling Groups |   |
+| Compute | | Lightsail |   |
+| Compute | | Lambda |   |
+| Compute | | Batch |   |
+| Compute | | Elastic Beanstalk |   |
+| Compute | | Serverless Application Repository |   |
+| Compute | | AWS Outposts |   |
+| Compute | | EC2 Image Builder |   |
+| | | | |
+| Containers | Containers | Elastic Container Registry | Azure Container Registry  |
+| Containers | Containers | Elastic Container Service (ECS) | |
+| Containers | Containers | Elastic Kubernetes Service (EKS) | Azure Kubernetes Service(AKS) |
+| * Containers | Containers | Elastic Container Service (ECS) with Fargate | Azure Container Instances |
+| Containers | Containers | Red Hat OpenShift Service on AWS | |
 AWS Lambda 
 Azure Service Fabric 
 Azure Functions 
