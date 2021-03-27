@@ -88,4 +88,10 @@ Notes:
 
 
 
+### Reference:
+
+https://docs.microsoft.com/en-us/azure/architecture/aws-professional/services
+
+http://comparecloud.in/
+
 
