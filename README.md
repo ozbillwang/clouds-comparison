@@ -4,7 +4,7 @@ AWS to Azure services comparison
 
 Notes:
 * Only compare AWS with AZure. 
-* Convert to Markdown and flat it for easy updates later
+* Markdown for easy updates later
 * Category types based on AWS services.
 
 | Category | Services | AWS | Azure |
