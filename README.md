@@ -6,6 +6,7 @@ Notes:
 * Only compare AWS with AZure. 
 * Markdown for easy updates later
 * Category types based on AWS services.
+* Service with * in front is a question service, need be reviewed.
 
 | Category | Services | AWS | Azure |
 | ---------- |:-------------:| :---------------------------------------:|:---------------------------------------:|
@@ -38,6 +39,6 @@ Notes:
 | Containers | Containers | Elastic Container Registry | Azure Container Registry  |
 | Containers | Containers | Elastic Container Service (ECS) | |
 | Containers | Containers | Elastic Kubernetes Service (EKS) | Azure Kubernetes Service(AKS) |
-| * Containers | Containers | Elastic Container Service (ECS) with Fargate | Azure Container Instances |
+| Containers | * Containers | Elastic Container Service (ECS) with Fargate | Azure Container Instances |
 | Containers | Containers | Red Hat OpenShift Service on AWS | |
 
