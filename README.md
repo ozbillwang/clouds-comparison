@@ -8,7 +8,7 @@ Notes:
 * Category types based on AWS services.
 
 | Category | Services | AWS | Azure |
-| :-------------: |:-------------:| :---------------------------------------:|:---------------------------------------:|
+| ---------- |:-------------:| :---------------------------------------:|:---------------------------------------:|
 | Compute | Instances | Amazon EC2  | Azure Virtual Machine |
 | Compute | Instances | Launch Templates  |  |
 | Compute | Instances | Spot instances  |  |
