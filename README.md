@@ -25,38 +25,37 @@ This page gives some simple comparisions for AWSers who want to know Azure servi
 | Compute | Instances | Reserviced Instances | Azure Reserved Virtual Machine Instances |
 | Compute | Instances | Dedicated Hosts | Azure Dedicated Host  |
 | Compute | * Images | AMIs |  Sysprep <br> Azure Images |
-| Compute | Elastic Block Store (EBS) | Volumes | Azure Storage  |
-| Compute | Elastic Block Store (EBS) | Snopshots |   |
+| Compute | Elastic Block Store (EBS) | Volumes | Disk Storage  |
+| Compute | Elastic Block Store (EBS) | Snopshots | Snopshots  |
 | Compute | Elastic Block Store (EBS) | Lifecycle Manager |   |
-| Compute | Network & Security | Security Groups|   |
-| Compute | Network & Security | Elastic IPs|   |
-| Compute | Network & Security | Placement Groups|   |
-| Compute | Network & Security | Network Interfaces|   |
-| Compute | Load Balancing| Load Balancers |   |
+| Compute | Network & Security | Security Groups| Network Security Groups  |
+| Compute | Network & Security | Elastic IPs| Public IP addresses  |
+| Compute | Network & Security | Placement Groups| Proximity placement groups  |
+| Compute | Network & Security | Network Interfaces| Network interfaces  |
+| Compute | Load Balancing| Load Balancers | Load balancers  |
 | Compute | Load Balancing| Target Groups |   |
 | Compute | Auto scaling| Launch Configurations |   |
-| Compute | Auto scaling| Auto Scaling Groups |   |
-| Compute | Auto scaling| Auto Scaling Groups |   |
-| Compute | | Lightsail |   |
-| Compute | | Lambda |   |
-| Compute | | Batch |   |
-| Compute | | Elastic Beanstalk |   |
+| Compute | Auto scaling| Auto Scaling Groups | Virtual machine scale sets (VMSS)  |
+| Compute | | Lightsail | App Service  |
+| Compute | | Lambda | Functions  |
+| Compute | | Batch | Batch |
+| Compute | | Elastic Beanstalk | App Service   |
 | Compute | | Serverless Application Repository |   |
-| Compute | | AWS Outposts |   |
-| Compute | | EC2 Image Builder |   |
+| Compute | | AWS Outposts | Stack  |
+| Compute | | EC2 Image Builder | Images  |
 | | | | |
 | Containers | Containers | Elastic Container Registry | Azure Container Registry  |
-| Containers | Containers | Elastic Container Service (ECS) | |
+| Containers | Containers | Elastic Container Service (ECS) | Container Instances |
 | Containers | Containers | Elastic Kubernetes Service (EKS) | Azure Kubernetes Service(AKS) |
 | Containers | * Containers <br> (Serverless Compute Engine) | Elastic Container Service (ECS) with Fargate | Azure Container Instances |
 | Containers | Containers | Red Hat OpenShift Service on AWS | |
 | | | | |
-| Storage |  | S3 | |
-| Storage |  | EFS | |
+| Storage |  | Simple Storage Services (S3) | Blob Storage |
+| Storage |  | EFS | File storage |
 | Storage |  | FSx | |
 | Storage |  | S3 Glacier | |
 | Storage |  | Storage Gateway | |
-| Storage |  | AWS Backup | |
+| Storage |  | AWS Backup | Azure Backup Center |
 | | | | |
 | Network & <br> Content Delivery | Virtual Private Cloud | Virtual Private Cloud (VPC) | Virtual Network (vNet) |
 | Network & <br> Content Delivery | Virtual Private Cloud | Subnets | Subnets |
