@@ -2,22 +2,30 @@
 
 AWS to Azure services comparison
 
-Notes:
-* Only compare AWS with AZure. 
+### Clarifications
+
+AWS and Azure are different public cloud providers, services between them are not same. So it is hard to match the services between them. 
+
+This page gives some simple comparisions for AWSers who want to know Azure services easily.
+
+### Notes
+* Only compare AWS with Azure. 
 * Markdown for easy updates later
 * Category types based on AWS services.
 * Service with * in front need be reviewed.
 * Only list as similar services
 
+### Comparision
+
 | Category | Services | AWS | Azure |
 | ---------- |:-------------:| :---------------------------------------:|:---------------------------------------:|
 | Compute | Instances | Amazon EC2  | Azure Virtual Machine |
 | Compute | Instances | Launch Templates  |  |
-| Compute | Instances | Spot instances  |  |
-| Compute | Instances | Reserviced Instances |  |
+| Compute | Instances | Spot instances  | Azure Spot Virtual Machines |
+| Compute | Instances | Reserviced Instances | Azure Reserved Virtual Machine Instances |
 | Compute | Instances | Dedicated Hosts | Azure Dedicated Host  |
-| Compute | Images | AMIs |   |
-| Compute | Elastic Block Store (EBS) | Volumes |   |
+| Compute | * Images | AMIs |  Sysprep <br> Azure Images |
+| Compute | Elastic Block Store (EBS) | Volumes | Azure Storage  |
 | Compute | Elastic Block Store (EBS) | Snopshots |   |
 | Compute | Elastic Block Store (EBS) | Lifecycle Manager |   |
 | Compute | Network & Security | Security Groups|   |
